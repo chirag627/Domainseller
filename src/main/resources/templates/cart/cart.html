@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Shopping Cart')}"></head>
+<body>
+<nav th:replace="~{fragments/navbar :: navbar}"></nav>
+<div th:replace="~{fragments/flash-messages :: flashMessages}"></div>
+
+<div class="container py-4">
+    <h2 class="mb-4"><i class="bi bi-cart3 text-primary me-2"></i>Shopping Cart</h2>
+    <div th:if="${cart.items.isEmpty()}" class="text-center py-5 text-secondary">
+        <i class="bi bi-cart display-3"></i>
+        <h4 class="mt-3">Your cart is empty</h4>
+        <a th:href="@{/domains}" class="btn btn-primary mt-2">Browse Domains</a>
+    </div>
+    <div th:unless="${cart.items.isEmpty()}">
+        <div class="table-responsive">
+            <table class="table table-dark-custom">
+                <thead><tr><th>Domain</th><th>Price</th><th>Action</th></tr></thead>
+                <tbody>
+                    <tr th:each="item : ${cart.items}">
+                        <td th:text="${item.domainName}"></td>
+                        <td class="text-warning fw-bold" th:text="'$' + ${item.price}"></td>
+                        <td>
+                            <form th:action="@{/cart/remove}" method="post" class="d-inline">
+                                <input type="hidden" name="domainId" th:value="${item.domainId}">
+                                <button type="submit" class="btn btn-sm btn-outline-danger">
+                                    <i class="bi bi-trash"></i> Remove
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td class="text-warning fw-bold">
+                            $<span th:text="${#aggregates.sum(cart.items.![price])}">0</span>
+                        </td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="text-end mt-3">
+            <a th:href="@{/cart/checkout}" class="btn btn-primary btn-lg">
+                <i class="bi bi-credit-card"></i> Proceed to Checkout
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer th:replace="~{fragments/footer :: footer}"></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

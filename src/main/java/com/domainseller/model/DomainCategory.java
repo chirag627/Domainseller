@@ -1,0 +1,6 @@
+package com.domainseller.model;
+
+public enum DomainCategory {
+    TECH, FINANCE, HEALTH, E_COMMERCE, EDUCATION, TRAVEL, DESIGN, MEDIA,
+    ENVIRONMENT, GAMING, FASHION, FOOD, LEGAL, REAL_ESTATE, SPORTS
+}
