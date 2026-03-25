@@ -2,3 +2,15 @@ node_modules/
 npm-debug.log*
 .env
 .DS_Store
+target/
+*.jar
+*.war
+*.class
+.mvn/
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
