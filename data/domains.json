@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "cloudnova.io",
+    "category": "Tech",
+    "description": "Perfect for cloud-based SaaS startups and tech companies looking for a modern, memorable brand.",
+    "price": 4500,
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "shopvibe.store",
+    "category": "E-Commerce",
+    "description": "Catchy e-commerce brand ready for the next big online retail business.",
+    "price": 3200,
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "mediapulse.net",
+    "category": "Media",
+    "description": "Ideal for news outlets, podcasts, and digital media companies wanting a strong identity.",
+    "price": 2800,
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "finledger.finance",
+    "category": "Finance",
+    "description": "Professional domain for fintech startups, investment platforms, and accounting firms.",
+    "price": 6200,
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "healpath.health",
+    "category": "Health",
+    "description": "Wellness brands, telemedicine platforms, and health-tech companies will love this domain.",
+    "price": 3900,
+    "available": true
+  },
+  {
+    "id": 6,
+    "name": "learnhub.education",
+    "category": "Education",
+    "description": "The go-to domain for online learning platforms, tutoring services, and ed-tech ventures.",
+    "price": 2100,
+    "available": true
+  },
+  {
+    "id": 7,
+    "name": "wanderjet.travel",
+    "category": "Travel",
+    "description": "Evokes adventure — perfect for travel agencies, booking platforms, and tour operators.",
+    "price": 3400,
+    "available": true
+  },
+  {
+    "id": 8,
+    "name": "greenroots.eco",
+    "category": "Environment",
+    "description": "Purpose-built for sustainability brands, green-tech companies, and eco-conscious businesses.",
+    "price": 2600,
+    "available": true
+  },
+  {
+    "id": 9,
+    "name": "pixelcraft.design",
+    "category": "Design",
+    "description": "Creative agencies, freelance designers, and UI studios will thrive with this domain.",
+    "price": 2900,
+    "available": true
+  },
+  {
+    "id": 10,
+    "name": "nexusai.tech",
+    "category": "Tech",
+    "description": "Premium AI-focused domain for machine-learning startups and intelligent software products.",
+    "price": 8900,
+    "available": true
+  }
+]
