@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "cloudvault.io",
+    "category": "tech",
+    "price": 4999,
+    "description": "Premium short domain perfect for a cloud storage or SaaS startup.",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "shopnest.com",
+    "category": "ecommerce",
+    "price": 7500,
+    "description": "Catchy, brandable domain ideal for an e-commerce platform or retail brand.",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "mediapulse.net",
+    "category": "media",
+    "price": 3200,
+    "description": "Great for a news aggregator, podcast network, or digital media company.",
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "finledger.io",
+    "category": "finance",
+    "price": 8900,
+    "description": "High-authority domain suited for fintech, blockchain, or accounting platforms.",
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "healthspan.org",
+    "category": "health",
+    "price": 2750,
+    "description": "Trustworthy and memorable domain for health, wellness, or longevity brands.",
+    "available": true
+  },
+  {
+    "id": 6,
+    "name": "eduforge.com",
+    "category": "education",
+    "price": 5100,
+    "description": "Ideal for an online learning platform, ed-tech startup, or digital academy.",
+    "available": true
+  },
+  {
+    "id": 7,
+    "name": "traveloop.com",
+    "category": "travel",
+    "price": 3800,
+    "description": "Fun and brandable domain for a travel booking site or tourism blog.",
+    "available": true
+  },
+  {
+    "id": 8,
+    "name": "greenroute.net",
+    "category": "environment",
+    "price": 2100,
+    "description": "Perfect for a sustainability startup, eco-travel company, or green logistics service.",
+    "available": true
+  },
+  {
+    "id": 9,
+    "name": "pixelstudio.io",
+    "category": "design",
+    "price": 4200,
+    "description": "Creative domain for a design agency, digital art platform, or creative tools company.",
+    "available": true
+  },
+  {
+    "id": 10,
+    "name": "devlaunch.io",
+    "category": "tech",
+    "price": 6300,
+    "description": "Energetic domain for a developer tools product, coding bootcamp, or tech incubator.",
+    "available": true
+  }
+]
